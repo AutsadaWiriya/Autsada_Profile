@@ -7,7 +7,7 @@ export default function Header() {
   const [isShowMenu, setIsShowMenu] = useState(false);
 
   return (
-    <div className="flex justify-between p-3 items-center px-20 py-6 flex-wrap md:flex-nowrap">
+    <div className="flex justify-between p-3 items-center px-10 md:px-20 py-6 flex-wrap md:flex-nowrap">
       <div className="flex hover:scale-110 duration-300 ease-in-out items-center">
         <h1 className="text-3xl text-[#ED9510]">
           <a href="">Autsada</a>
