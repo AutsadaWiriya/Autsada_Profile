@@ -3,7 +3,7 @@ import 'animate.css';
 
 export default function Info() {
   return (
-    <div className="flex flex-row gap-x-16 justify-around min-w-40 flex-wrap-reverse min-h-screen items-center pt-5">
+    <div className="flex flex-row gap-x-16 justify-around min-w-40 flex-wrap-reverse md:min-h-screen items-center pt-5">
       <div className="flex flex-col space-y-10 mx-5">
         <div className="animate__animated animate__zoomInDown">
           <h1 className="text-[#ED9510] text-2xl">Autsada Wiriya</h1>
@@ -62,7 +62,7 @@ export default function Info() {
         </div>
         <div></div>
       </div>
-      <div className="items-center w-96 mx-16 relative animate__animated animate__pulse">
+      <div className="items-center w-96 mx-16 relative animate__animated animate__pulse my-20 md:my-0">
         <div className="rounded-full overflow-hidden absolute z-40">
           <img src="/img/Profile.jpg" alt="" />
         </div>
