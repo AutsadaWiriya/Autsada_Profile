@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    background-color: #04051C
+  }
+
+  ::selection{
+    color: #ffffff;
+    background: #ED9510;
+  }
+  
+  ::-webkit-scrollbar {
+    max-width: 8px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    border-radius: 25px;
+    background-image: linear-gradient(180deg, #ED9510 0%, #160821 100%);
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #04051C;
+  }
+
+  li {
+    @apply list-none;
+  }
+
+  main {
+    @apply min-h-screen
+  }
+}
+
