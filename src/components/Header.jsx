@@ -8,13 +8,11 @@ export default function Header() {
 
   return (
     <div className="flex justify-between items-center px-10 md:px-20 py-6 flex-wrap md:flex-nowrap sticky top-0 backdrop-blur-sm z-20">
-      <div className="flex hover:scale-110 duration-300 ease-in-out items-center">
-        <h1 className="text-3xl text-[#ED9510]">
-          <a href="">Autsada</a>
-        </h1>
-        <h1 className="text-3xl text-white hidden md:flex">
-          <a href="">Wiriya</a>
-        </h1>
+      <div className="flex hover:scale-110 duration-300 ease-in-out items-center ">
+        <a href="#" className="flex">
+        <h1 className="text-3xl text-[#ED9510]">Autsada</h1>
+        <h1 className="text-3xl text-white hidden md:flex">Wiriya</h1>
+        </a>
       </div>
       <div className="flex md:hidden text-white text-2xl items-center">
         <FontAwesomeIcon
@@ -34,10 +32,10 @@ export default function Header() {
           <a href="#Experince">Experince</a>
         </li>
         <li className="md:hover:scale-110 duration-300 ease-in-out">
-          <a href="">Gallery</a>
+          <a href="ERROR">Gallery</a>
         </li>
         <li className="md:hover:scale-110 duration-300 ease-in-out">
-          <a href="">Contact</a>
+          <a href="ERROR">Contact</a>
         </li>
       </div>
     </div>
