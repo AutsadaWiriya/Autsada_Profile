@@ -2,15 +2,15 @@
 import React from "react";
 import Header from "@/components/Header";
 import Info from "@/components/Info";
-import Head from "next/head";
+import Experince from "@/components/Experince";
 
 export default function Home() {
   return (
     <>
-
       <main className="bg-[#04051C]">
         <Header />
-        <Info />
+        <section id="Info"><Info /></section>
+        <section id="Experince"><Experince/></section>
       </main>
     </>
   );

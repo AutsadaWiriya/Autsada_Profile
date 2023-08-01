@@ -7,7 +7,7 @@ export default function Header() {
   const [isShowMenu, setIsShowMenu] = useState(false);
 
   return (
-    <div className="flex justify-between p-3 items-center px-10 md:px-20 py-6 flex-wrap md:flex-nowrap">
+    <div className="flex justify-between p-3 items-center px-10 md:px-20 py-6 flex-wrap md:flex-nowrap sticky top-0 backdrop-blur-sm">
       <div className="flex hover:scale-110 duration-300 ease-in-out items-center">
         <h1 className="text-3xl text-[#ED9510]">
           <a href="">Autsada</a>
@@ -28,10 +28,10 @@ export default function Header() {
         }`}
       >
         <li className="md:hover:scale-110 duration-300 ease-in-out">
-          <a href="">Home</a>
+          <a href="#Info">Home</a>
         </li>
         <li className="md:hover:scale-110 duration-300 ease-in-out">
-          <a href="">Experince</a>
+          <a href="#Experince">Experince</a>
         </li>
         <li className="md:hover:scale-110 duration-300 ease-in-out">
           <a href="">Gallery</a>

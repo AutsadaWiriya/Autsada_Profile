@@ -12,7 +12,12 @@
   }
 
   body{
-    background-color: #04051C
+    background-color: #04051C;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
   }
 
   ::selection{
@@ -43,6 +48,12 @@
 
   main {
     @apply min-h-screen
+  }
+  
+  section {
+    @apply min-h-screen;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
   }
 }
 
