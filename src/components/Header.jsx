@@ -26,16 +26,16 @@ export default function Header() {
         }`}
       >
         <li className="md:hover:scale-110 duration-300 ease-in-out">
-          <a href="#Info">Home</a>
+          <a href="#Info" onClick={() => setIsShowMenu(!isShowMenu)}>Home</a>
         </li>
         <li className="md:hover:scale-110 duration-300 ease-in-out">
-          <a href="#Experince">Experince</a>
+          <a href="#Experince" onClick={() => setIsShowMenu(!isShowMenu)}>Experince</a>
         </li>
         <li className="md:hover:scale-110 duration-300 ease-in-out">
-          <a href="ERROR">Gallery</a>
+          <a href="ERROR" onClick={() => setIsShowMenu(!isShowMenu)}>Gallery</a>
         </li>
         <li className="md:hover:scale-110 duration-300 ease-in-out">
-          <a href="ERROR">Contact</a>
+          <a href="ERROR" onClick={() => setIsShowMenu(!isShowMenu)}>Contact</a>
         </li>
       </div>
     </div>
